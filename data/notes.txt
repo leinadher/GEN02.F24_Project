@@ -24,3 +24,4 @@ There are several cloud-based services and tools available for big data processi
 4. Apache Spark on Databricks: Databricks is a cloud-based platform that provides a collaborative environment for big data analytics using Apache Spark.
 
 These cloud-based services provide the infrastructure and tools necessary to store, process, and analyze big data in a scalable and cost-effective manner.
+The MSc in Data Science and Information program does not provide specific information about modules in statistics.
