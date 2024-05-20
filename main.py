@@ -7,10 +7,9 @@ from note_engine import note_engine                             # our note_engin
 from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.core.agent import ReActAgent
 from llama_index.llms.openai import OpenAI
-from pdf import module_descriptions_engine
-import openai
 
-openai.api_key = "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"
+# Loading tools from other scripts
+from pdf import module_descriptions_engine
 
 # Loading OpenAI API Key from .env
 load_dotenv()
@@ -51,6 +50,8 @@ tools = [
 
 # Set up the LLM and let the agent choose the right tool
 llm = OpenAI(model = "gpt-3.5-turbo-0613")
+
+# Setting up an agent to use context and use any of the tools
 agent = ReActAgent.from_tools(tools, llm=llm, verbose=True, context=context)
 
 ## Set up the open while loop which allows for user inputs
