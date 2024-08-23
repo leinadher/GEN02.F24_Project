@@ -4,6 +4,8 @@
 
 **Date:** 30/04/2024
 
+<img src="assets/screenshot.jpg" alt="Screenshot" width="512"/>
+
 ---
 
 ## 1. Project Overview
@@ -16,6 +18,7 @@ This project is maintained within a GitHub repository, facilitating collaboratio
 
 - 📁 `.idea`: Configuration files for the development environment, useful for maintaining consistent settings across different contributors' setups.
 - 📁 `__pycache__`: Compiled Python files to improve the execution speed of the code.
+- 📁 `assets`: Some additional files for representation and readme file.
 - 📁 `GEN02`: Contains generated files or output relevant to the project's execution, including intermediate results and cached data.
 - 📁 `data`: Holds datasets and school-related documentation that the chatbot uses to generate responses.
 - 📁 `module_descriptions`: Includes descriptions of university modules, used to augment the responses.
